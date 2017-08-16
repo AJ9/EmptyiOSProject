@@ -14,6 +14,7 @@
 		D237AA891F4492D700AE7280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D237AA871F4492D700AE7280 /* LaunchScreen.storyboard */; };
 		D237AA941F4492D700AE7280 /* EmptyiOSProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237AA931F4492D700AE7280 /* EmptyiOSProjectTests.swift */; };
 		D237AA9F1F4492D700AE7280 /* EmptyiOSProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237AA9E1F4492D700AE7280 /* EmptyiOSProjectUITests.swift */; };
+		D237AAAD1F44B21C00AE7280 /* HelloWorldService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237AAAC1F44B21C00AE7280 /* HelloWorldService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D237AA9A1F4492D700AE7280 /* EmptyiOSProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmptyiOSProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D237AA9E1F4492D700AE7280 /* EmptyiOSProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyiOSProjectUITests.swift; sourceTree = "<group>"; };
 		D237AAA01F4492D700AE7280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D237AAAC1F44B21C00AE7280 /* HelloWorldService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorldService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D237AA851F4492D700AE7280 /* Assets.xcassets */,
 				D237AA871F4492D700AE7280 /* LaunchScreen.storyboard */,
 				D237AA8A1F4492D700AE7280 /* Info.plist */,
+				D237AAAC1F44B21C00AE7280 /* HelloWorldService.swift */,
 			);
 			path = EmptyiOSProject;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				D237AA811F4492D700AE7280 /* ViewController.swift in Sources */,
 				D237AA7F1F4492D700AE7280 /* AppDelegate.swift in Sources */,
+				D237AAAD1F44B21C00AE7280 /* HelloWorldService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
