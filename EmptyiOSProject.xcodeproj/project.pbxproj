@@ -194,7 +194,7 @@
 					D237AA7A1F4492D700AE7280 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = QP2YPVUADE;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					D237AA8E1F4492D700AE7280 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -359,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -420,8 +420,10 @@
 				DEVELOPMENT_TEAM = QP2YPVUADE;
 				INFOPLIST_FILE = EmptyiOSProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.aj9.EmptyiOSProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unidays.empty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "456c7cf4-6811-45cc-b37e-48df5ed7f19c";
+				PROVISIONING_PROFILE_SPECIFIER = "Empty Repo Ask Gask";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -433,8 +435,10 @@
 				DEVELOPMENT_TEAM = QP2YPVUADE;
 				INFOPLIST_FILE = EmptyiOSProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.aj9.EmptyiOSProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unidays.empty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "456c7cf4-6811-45cc-b37e-48df5ed7f19c";
+				PROVISIONING_PROFILE_SPECIFIER = "Empty Repo Ask Gask";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -516,6 +520,7 @@
 				D237AAA51F4492D700AE7280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D237AAA61F4492D700AE7280 /* Build configuration list for PBXNativeTarget "EmptyiOSProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				D237AAA81F4492D700AE7280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D237AAA91F4492D700AE7280 /* Build configuration list for PBXNativeTarget "EmptyiOSProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				D237AAAB1F4492D700AE7280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

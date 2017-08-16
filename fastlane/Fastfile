@@ -1,0 +1,18 @@
+# More documentation about how to customize your build
+# can be found here:
+# https://docs.fastlane.tools
+fastlane_version "2.0.0"
+default_platform :ios
+
+# Fastfile actions accept additional configuration, but
+# don't worry, fastlane will prompt you for required
+# info which you can add here later
+lane :test do
+  # build your iOS app
+  scan(
+    # scheme: "YourScheme",
+    scheme: "EmptyiOSProject",
+    configuration: "Debug",
+    project: "EmptyiOSProject.xcodeproj"
+  )
+end
