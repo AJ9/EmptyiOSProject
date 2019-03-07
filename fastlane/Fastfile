@@ -16,3 +16,13 @@ lane :test do
     project: "EmptyiOSProject.xcodeproj"
   )
 end
+
+lane :build do
+  # build your iOS app
+  gym(
+    # scheme: "YourScheme",
+    scheme: "EmptyiOSProject",
+    configuration: "Debug",
+    project: "EmptyiOSProject.xcodeproj"
+  )
+end
